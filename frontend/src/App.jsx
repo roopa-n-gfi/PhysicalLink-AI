@@ -239,7 +239,7 @@ function App() {
     }
 
     try {
-      const response = await fetch("http://127.0.0.1:8000/api/experience-outcome", {
+      const response = await fetch("https://physicallink-ai.onrender.com/api/experience-outcome", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -284,7 +284,7 @@ function App() {
     setSimulationResult("Waiting for the AI action plan...");
 
     try {
-      const response = await fetch("http://127.0.0.1:8000/api/task", {
+      const response = await fetch("https://physicallink-ai.onrender.com/api/task", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ task: task.trim() }),
