@@ -1,0 +1,1222 @@
+[
+  {
+    "task": "Move a package from Station A to Station B while avoiding obstacles.",
+    "action_plan": [
+      "Scan the environment to locate Station A, Station B, and any obstacles (e.g., walls, moving carts, low‑clearance beams).",
+      "Mark safe travel corridors that connect Station A to Station B while staying clear of identified hazards.",
+      "Choose the corridor with the fewest obstacles and the most stable footing for the robot’s base.",
+      "Program a step‑by‑step motion sequence that follows the chosen corridor, pausing at each waypoint to re‑verify clearance.",
+      "Implement real‑time obstacle detection (e.g., lidar or depth camera) to abort or reroute if a new hazard appears.",
+      "Perform a final safety check: confirm battery level, verify that all sensors are functional, and ensure the package is securely attached before departure."
+    ],
+    "created_at": "2026-10-16T15:19:35.456669+00:00"
+  },
+  {
+    "task": "Move a package from Station A to Station B while avoiding obstacles.",
+    "action_plan": [
+      "Scan the environment with sensors to map Station A, Station B, and any obstacles in the path.",
+      "Generate a collision‑free route that connects Station A to Station B, prioritizing clear corridors and avoiding high‑risk zones.",
+      "Verify that the chosen path maintains a safe distance (≥ minimum clearance) from all identified obstacles.",
+      "Plan a smooth motion profile (speed ramps, deceleration zones) to keep the package stable during transit.",
+      "Execute a preliminary short‑range test move to confirm that the robot can navigate the route without contact.",
+      "Perform a final safety check: confirm sensor readings, re‑validate clearance, and ensure the package is securely held before proceeding to the full transport."
+    ],
+    "created_at": "2026-10-16T15:26:03.030527+00:00"
+  },
+  {
+    "task": "Move a package from Station A to Station B while avoiding obstacles.",
+    "action_plan": [
+      "Scan the area with lidar/depth sensors to locate Station A, Station B, and any static or moving obstacles (walls, carts, low‑clearance beams).",
+      "Map a collision‑free corridor from A to B, prioritizing routes with the greatest clearance and stable footing for the robot’s base.",
+      "Mark waypoints along the chosen corridor and program a step‑by‑step motion sequence that pauses at each waypoint for re‑verification of obstacle clearance.",
+      "Integrate real‑time obstacle detection (e.g., lidar or depth camera) to trigger an immediate stop or reroute if a new hazard appears.",
+      "Perform a final safety check: confirm battery level, verify all sensors are functional, and ensure the package is securely attached before departing."
+    ],
+    "created_at": "2026-10-17T15:27:30.123212+00:00"
+  },
+  {
+    "task": "Move a box to the storage area while avoiding obstacles.",
+    "action_plan": [
+      "Scan the environment with lidar/depth sensors to locate the box’s starting point, the storage area, and all obstacles (walls, moving carts, low‑clearance beams, slippery patches, etc.).",
+      "Mark safe travel corridors that connect the start to the storage area, favoring routes with the greatest clearance and stable footing for the robot’s base.",
+      "Select the corridor with the fewest high‑risk zones and map a series of waypoints along it.",
+      "Program a step‑by‑step motion sequence that moves from waypoint to waypoint, pausing at each point to re‑verify obstacle clearance and package stability.",
+      "Integrate real‑time obstacle detection (e.g., lidar or depth camera) so the robot can abort or reroute instantly if a new hazard appears.",
+      "Perform a final safety check: confirm battery level, verify all sensors are functional, ensure the box is securely attached, and validate that the chosen path remains clear before departure."
+    ],
+    "created_at": "2026-10-17T15:30:40.602559+00:00"
+  },
+  {
+    "task": "Move a box to the storage area while avoiding obstacles.",
+    "action_plan": [
+      "Scan the environment with lidar/depth sensors to locate the box’s starting point, the storage area, and all obstacles (walls, moving carts, low‑clearance beams, slippery patches, etc.).",
+      "Mark safe travel corridors that connect the start to the storage area, preferring routes with the greatest clearance and stable footing for the robot’s base.",
+      "Choose the corridor with the fewest high‑risk zones and map a series of waypoints along it.",
+      "Program a step‑by‑step motion sequence that moves from waypoint to waypoint, pausing at each point to re‑verify obstacle clearance and ensure the box remains securely attached.",
+      "Integrate real‑time obstacle detection (e.g., lidar or depth camera) so the robot can abort or reroute instantly if a new hazard appears.",
+      "Perform a final safety check: confirm battery level, verify all sensors are functional, ensure the box is firmly secured, and validate that the chosen path remains clear before departure."
+    ],
+    "created_at": "2026-10-17T15:35:41.798518+00:00"
+  },
+  {
+    "task": "Move a box to the storage area while avoiding obstacles.",
+    "action_plan": [
+      "Scan the area with lidar/depth sensors to locate the box, the storage zone, and all static or moving obstacles (walls, carts, low‑clearance beams, slippery patches, etc.).",
+      "Identify and mark safe travel corridors that connect the box’s start position to the storage area, prioritizing routes with the most clearance and stable footing for the robot’s base.",
+      "Choose the corridor with the fewest high‑risk zones and plot a series of waypoints along it, ensuring each waypoint offers a clear line‑of‑sight and enough stopping distance.",
+      "Program a step‑by‑step motion sequence that moves from waypoint to waypoint, pausing at each point to re‑verify obstacle clearance and confirm the box remains securely attached.",
+      "Enable real‑time obstacle detection (e.g., lidar or depth camera) so the robot can instantly abort or reroute if a new hazard appears during transit.",
+      "Perform a final safety check:"
+    ],
+    "created_at": "2026-10-17T15:36:52.036810+00:00"
+  },
+  {
+    "task": "Move a box to the storage area while avoiding obstacles.",
+    "action_plan": [
+      "Scan the environment with lidar/depth sensors to locate the box’s starting point, the storage area, and all obstacles (walls, moving carts, low‑clearance beams, slippery patches, etc.).",
+      "Identify and mark safe travel corridors that connect the start to the storage area, preferring routes with the greatest clearance and stable footing for the robot’s base.",
+      "Select the corridor with the fewest high‑risk zones and plot a series of waypoints that provide clear line‑of‑sight and sufficient stopping distance at each step.",
+      "Program a step‑by‑step motion sequence that moves from waypoint to waypoint, pausing at each point to re‑verify obstacle clearance and confirm the box remains securely attached.",
+      "Enable real‑time obstacle detection (e.g., lidar or depth camera) so the robot can instantly abort or reroute if a new hazard appears during transit.",
+      "Perform a final safety check: confirm battery level"
+    ],
+    "created_at": "2026-10-17T15:37:25.470460+00:00"
+  },
+  {
+    "task": "Move a fragile box to the storage area while avoiding obstacles.",
+    "action_plan": [
+      "Scan the environment with lidar/depth sensors to locate the box, the storage zone, and all obstacles (walls, moving carts, low‑clearance beams, slippery patches, etc.).",
+      "Identify safe travel corridors that connect the box’s start position to the storage area, prioritizing routes with the greatest clearance and stable footing for the robot’s base.",
+      "Choose the corridor with the fewest high‑risk zones and plot a series of waypoints that provide clear line‑of‑sight and sufficient stopping distance at each point.",
+      "Program a step‑by‑step motion sequence that moves from waypoint to waypoint, pausing at each waypoint to re‑verify obstacle clearance and confirm the box remains securely attached.",
+      "Enable real‑time obstacle detection (e.g., lidar or depth camera) so the robot can instantly abort or reroute if a new hazard appears during transit.",
+      "Perform a final safety check: confirm battery level, verify all"
+    ],
+    "created_at": "2026-10-17T15:55:17.207234+00:00"
+  },
+  {
+    "task": "Move a fragile box from Station A to Station B while avoiding obstacles.",
+    "action_plan": [
+      "Scan the environment with lidar/depth sensors to locate Station A, Station B, and all obstacles (walls, moving carts, low‑clearance beams, etc.).",
+      "Map safe travel corridors from A to B, marking any zones with insufficient clearance or unstable footing.",
+      "Choose"
+    ],
+    "created_at": "2026-10-17T16:07:25.186958+00:00"
+  },
+  {
+    "task": "Move a package from Station A to Station B while avoiding obstacles.",
+    "action_plan": [
+      "Scan the environment with lidar/depth sensors to locate Station A, Station B, and all static or moving obstacles (walls, carts, low‑clearance beams, etc.).",
+      "Identify safe travel corridors that connect A to B, prioritizing routes with the greatest clearance and stable footing for the robot’s base.",
+      "Mark waypoints along the chosen corridor and plan a step‑by‑step motion sequence that pauses at each waypoint for re‑verification of obstacle clearance.",
+      "Integrate real‑time obstacle detection (e.g., lidar or depth camera) to automatically stop or reroute if a new hazard appears during transit.",
+      "Perform a final safety check: confirm battery level, verify all sensors are functional, and ensure the package is securely attached before departure.",
+      "(Optional) Conduct a short‑range test move along the first segment of the route to validate that the robot can navigate without contact, then resume the full transport.",
+      "Continu"
+    ],
+    "created_at": "2026-10-17T17:13:38.115255+00:00"
+  },
+  {
+    "task": "Move a fragile box from Station A to Station B carefully.",
+    "action_plan": [
+      "Scan the environment with lidar/depth sensors to locate Station A, Station B, and all obstacles (walls, moving carts, low‑clearance beams, uneven flooring, etc.).",
+      "Map safe travel corridors from A to B, flagging any zones with insufficient clearance, unstable footing, or high‑risk hazard concentrations.",
+      "Select the corridor that offers the greatest clearance and the most stable surface while keeping the route as direct as possible.",
+      "Program a step‑by‑step motion sequence that follows the chosen corridor, pausing at each waypoint to re‑verify clearance and package stability.",
+      "Enable real‑time obstacle detection (e.g., lidar or depth camera) to abort or reroute instantly if a new hazard appears during transit.",
+      "Perform a final safety check: confirm battery level, verify all sensors are functional, ensure the box is securely attached, and validate that the robot’s base is stable before departing."
+    ],
+    "created_at": "2026-10-17T17:17:05.713652+00:00"
+  },
+  {
+    "task": "Move a fragile box from Station A to Station B carefully.",
+    "action_plan": [
+      "Scan the area with lidar/depth sensors to locate Station A, Station B, and all potential hazards (walls, moving carts, low‑clearance beams, uneven flooring, etc.).",
+      "Generate a map of safe travel corridors between A and B, flagging any zones with insufficient clearance, unstable footing, or high‑risk hazard concentrations.",
+      "Select the corridor that provides the greatest clearance and the most stable surface while keeping the route as direct as possible.",
+      "Program a step‑by‑step motion sequence that follows the chosen corridor, pausing at each waypoint to re‑verify clearance and that the box remains securely attached.",
+      "Enable real‑time obstacle detection (e.g., lidar or depth camera) to abort or reroute instantly if a new hazard appears during transit.",
+      "Perform a final safety check: confirm battery level, verify all sensors are functional, ensure the box is firmly fastened, and validate that the robot’s base is stable before departing.",
+      "Begin movement only after the"
+    ],
+    "created_at": "2026-10-17T17:23:45.056407+00:00"
+  },
+  {
+    "task": "Move a small fragile package from Station A to Station B without hitting obstacles.",
+    "action_plan": [
+      "Scan the environment with lidar/depth sensors to locate Station A, Station B, and all static or moving obstacles (walls, carts, low‑clearance beams, etc.).",
+      "Identify safe travel corridors that connect A to B, prioritizing routes with the greatest clearance and stable footing for the robot’s base.",
+      "Mark waypoints along the chosen corridor and design a step‑by‑step motion sequence that pauses at each waypoint for a quick clearance re‑check.",
+      "Integrate real‑time obstacle detection (e.g., lidar or depth camera) so the robot can abort or reroute instantly if a new hazard appears.",
+      "Perform a final safety check: verify battery level, confirm all sensors are functional, and ensure the package is securely attached before departure.",
+      "Execute the planned route, continuously monitoring sensor feedback and stopping immediately if any obstacle is detected."
+    ],
+    "created_at": "2026-10-17T17:33:10.518568+00:00"
+  },
+  {
+    "task": "Move a package from Station A to Station B while avoiding obstacles.",
+    "action_plan": [
+      "Scan the environment with lidar/depth sensors to locate Station A, Station B, and all static or moving obstacles (walls, carts, low‑clearance beams, etc.).",
+      "Identify safe travel corridors that connect A to B, prioritizing routes with the greatest clearance and stable footing for the robot’s base.",
+      "Mark waypoints along the chosen corridor and plan a step‑by‑step motion sequence that pauses at each waypoint for re‑verification of obstacle clearance.",
+      "Integrate real‑time obstacle detection (e.g., lidar or depth camera) to automatically stop or reroute if a new hazard appears during transit.",
+      "Perform a final safety check: confirm battery level, verify all sensors are functional, and ensure the package is securely attached before departure.",
+      "Execute a short test move along the route to validate clearance and stability, then proceed with the full transport."
+    ],
+    "created_at": "2026-10-21T06:42:55.640217+00:00"
+  },
+  {
+    "task": "Move a package from Station A to Station B while avoiding obstacles.",
+    "action_plan": [
+      "Scan the environment with lidar/depth sensors to locate Station A, Station B, and all static or moving obstacles (walls, carts, low‑clearance beams, etc.).",
+      "Identify and flag hazardous zones (e.g., narrow passages, swinging equipment, uneven flooring) and mark safe travel corridors that connect A to B while maintaining a minimum clearance margin.",
+      "Select the corridor with the greatest clearance and the most stable footing for the robot’s base; note any waypoints where the robot must pause for re‑verification.",
+      "Program a step‑by‑step motion sequence that follows the chosen corridor, pausing at each waypoint to re‑check obstacle clearance and package stability.",
+      "Integrate real‑time obstacle detection (e.g., lidar or depth camera) to automatically halt or reroute if a new hazard appears during transit.",
+      "Perform a final safety check: verify battery level, confirm all sensors are functional, and"
+    ],
+    "created_at": "2026-10-21T06:45:47.913174+00:00"
+  },
+  {
+    "task": "Move a package from Station A to Station B while avoiding obstacles.",
+    "action_plan": [
+      "Scan the environment with lidar/depth sensors to locate Station A, Station B, and all static or moving obstacles (walls, carts, low‑clearance beams, etc.).",
+      "Generate a collision‑free corridor from A to B, prioritizing routes with the greatest clearance and stable footing for the robot’s base; mark intermediate waypoints along this path.",
+      "Program a step‑by‑step motion sequence that moves the robot from waypoint to waypoint, pausing at each point to re‑verify obstacle clearance before proceeding.",
+      "Integrate real‑time obstacle detection (e.g., lidar or depth camera) to trigger an immediate stop or automatic reroute if a new hazard appears during transit.",
+      "Perform a final safety check: confirm battery level, verify all sensors are functional, and ensure the package is securely attached before departure.",
+      "Execute a short test move along the first segment of the corridor to validate that the robot can navigate without contact"
+    ],
+    "created_at": "2026-10-21T06:48:56.709533+00:00"
+  },
+  {
+    "task": "Move a package from Station A to Station B while avoiding obstacles.",
+    "action_plan": [
+      "Scan the environment with lidar/depth sensors to locate Station A, Station B, and all static or moving obstacles (walls, carts, low‑clearance beams, etc.).",
+      "Identify safe travel corridors that connect A to B, marking waypoints where the path has the greatest clearance and stable footing for the robot’s base.",
+      "Select the corridor with the fewest hazards and the most reliable sensor coverage, and plot a step‑by‑step motion sequence that pauses at each waypoint for re‑verification of clearance.",
+      "Integrate real‑time obstacle detection (e.g., continuous lidar or depth‑camera monitoring) to trigger an immediate stop or automatic reroute if a new hazard appears.",
+      "Perform a final safety check: verify battery level, confirm all sensors are functional, and ensure the package is securely attached before departure.",
+      "Execute the planned route, continuously monitoring for obstacles and aborting or adjusting the path if safety thresholds"
+    ],
+    "created_at": "2026-10-21T06:53:49.499817+00:00"
+  },
+  {
+    "task": "Move a package from Station A to Station B while avoiding obstacles.",
+    "action_plan": [
+      "Scan the environment with lidar/depth sensors to locate Station A, Station B, and all static or moving obstacles (walls, carts, low‑clearance beams, etc.).",
+      "Identify and mark safe travel corridors that connect A to B, prioritizing routes with the greatest clearance and stable footing for the robot’s base.",
+      "Select the corridor with the fewest hazards and the most reliable surface, and plot waypoints along it.",
+      "Program a step‑by‑step motion sequence that moves from waypoint to waypoint, pausing at each point to re‑verify obstacle clearance before proceeding.",
+      "Integrate real‑time obstacle detection (e.g., lidar or depth camera) to trigger an immediate stop or reroute if a new hazard appears during transit.",
+      "Perform a final safety check: confirm battery level, verify all sensors are functional, and ensure the package is securely attached before departing."
+    ],
+    "created_at": "2026-10-21T07:00:16.481018+00:00"
+  },
+  {
+    "task": "Move a package from Station A to Station B while avoiding obstacles.",
+    "action_plan": [
+      "Scan the surroundings with lidar/depth sensors to locate Station A, Station B, and all static or moving obstacles (walls, carts, low‑clearance beams, etc.).",
+      "Mark safe travel corridors that connect A to B, discarding any path that brings the robot within the minimum clearance distance of a hazard.",
+      "Select the corridor with the greatest clearance and the most stable footing for the robot’s base, and record waypoints along it.",
+      "Program a step‑by‑step motion sequence that pauses at each waypoint for a quick re‑verification of obstacle clearance before proceeding.",
+      "Enable real"
+    ],
+    "created_at": "2026-10-21T07:01:54.667036+00:00"
+  },
+  {
+    "task": "Move a package from Station A to Station B while avoiding obstacles.",
+    "action_plan": [
+      "Scan the environment with lidar/depth sensors to locate Station A, Station B, and any static or moving obstacles (walls, carts, low‑clearance beams, uneven flooring).",
+      "Generate a collision‑free corridor from A to B, favoring routes with the greatest clearance and stable footing for the robot’s base; mark intermediate waypoints along this path.",
+      "Program a step‑by‑step motion sequence that moves the robot from waypoint to waypoint, pausing at each point to re‑verify that no new obstacles have appeared.",
+      "Integrate real‑time obstacle detection (e.g., continuous lidar or depth‑camera monitoring) to trigger an immediate stop or automatic reroute if a hazard is detected during transit.",
+      "Perform a final safety check before departure: confirm adequate battery level, verify all sensors are reporting correctly, and ensure the package is securely attached to the robot’s carrier.",
+      "Execute the planned route, continuously monitoring for unexpected obstacles and aborting or rerouting as needed until the package reaches Station B."
+    ],
+    "created_at": "2026-10-21T07:26:34.096413+00:00"
+  },
+  {
+    "task": "Move a package from Station A to Station B while avoiding obstacles.",
+    "action_plan": [
+      "Scan the surroundings with lidar/depth sensors to locate Station A, Station B, and all static or moving obstacles.",
+      "Map a collision‑free corridor from A to B, prioritizing routes with the greatest clearance and stable footing for the robot’s base.",
+      "Select the corridor with the fewest hazards and mark intermediate waypoints along it.",
+      "Program a step‑by‑step motion sequence that pauses at each waypoint to re‑verify obstacle clearance before proceeding.",
+      "Enable real‑time obstacle detection (e.g., lidar or depth camera) to abort or reroute instantly if a new hazard appears.",
+      "Perform a final safety check: confirm battery level, verify sensor functionality, and ensure the package is securely attached.",
+      "Execute the planned route, continuously monitoring for unexpected obstacles until"
+    ],
+    "created_at": "2026-10-21T07:31:22.719338+00:00"
+  },
+  {
+    "task": "Move a package from Station A to Station B while avoiding obstacles.",
+    "action_plan": [
+      "Scan the workspace with all available sensors (lidar, depth camera, proximity detectors) to locate Station A, Station B, and any static or moving obstacles such as walls, carts, low‑clearance beams, or uneven flooring.",
+      "Identify and flag hazardous zones (e.g., narrow passages, moving equipment, slippery surfaces) and mark them as “no‑go” areas.",
+      "Compute multiple candidate corridors from A to B, evaluating each for obstacle density, clearance margin, and base stability; select the route with the widest safe margin and most stable footing.",
+      "Break the chosen corridor into discrete waypoints; program a step‑by‑step motion sequence that moves the robot from waypoint to waypoint, pausing briefly at each to re‑check clearance and package stability.",
+      "Enable real‑time obstacle detection; if a new hazard is detected, automatically halt motion and initiate a safe stop or reroute"
+    ],
+    "created_at": "2026-10-21T07:33:43.540238+00:00"
+  },
+  {
+    "task": "Move a package from Station A to Station B while avoiding obstacles.",
+    "action_plan": [
+      "Scan the environment with lidar/depth sensors to locate Station A, Station B, and all static or moving obstacles (walls, carts, low‑clearance beams, etc.).",
+      "Identify and mark safe travel corridors that connect A to B, favoring routes with the greatest clearance and stable footing for the robot’s base.",
+      "Select the corridor with the fewest hazards and the most reliable surface, then outline waypoints along it.",
+      "Program a step‑by‑step motion sequence that moves from waypoint to waypoint, pausing at each point to re‑verify obstacle clearance before proceeding.",
+      "Integrate real‑time obstacle detection (e.g., lidar or depth camera) to trigger an immediate stop or reroute if a new hazard appears during transit.",
+      "Perform a final safety check: confirm battery level, verify all sensors are functional, and ensure the package is securely attached before departing."
+    ],
+    "created_at": "2026-10-21T07:34:26.653207+00:00"
+  },
+  {
+    "task": "Move a package from Station A to Station B while avoiding obstacles.",
+    "action_plan": [
+      "Scan the environment with lidar/depth sensors to locate Station A, Station B, and all static or moving obstacles (walls, carts, low‑clearance beams).",
+      "Identify and mark safe travel corridors that connect A to B, noting any hazards such as narrow passages or unstable footing.",
+      "Select the corridor with the greatest clearance and most stable base support, avoiding high‑risk zones.",
+      "Define waypoints"
+    ],
+    "created_at": "2026-10-21T07:39:12.948707+00:00"
+  },
+  {
+    "task": "Move a package from Station A to Station B while avoiding obstacles.",
+    "action_plan": [
+      "Scan the environment with lidar/depth sensors to locate Station A, Station B, and all static or moving obstacles (walls, carts, low‑clearance beams, etc.).",
+      "Identify safe travel corridors that connect A to B, prioritizing routes with the greatest clearance and stable footing for the robot’s base.",
+      "Mark waypoints along the chosen corridor and design a step‑by‑step motion sequence that pauses at each waypoint for re‑verification of obstacle clearance.",
+      "Integrate real‑time obstacle detection (e.g., lidar or depth camera) to abort or reroute instantly if a new hazard appears.",
+      "Perform a final safety check: confirm battery level, verify all sensors are functional, and ensure the package is securely attached before departure.",
+      "Execute a short test move along the route to validate clearance and stability, then proceed with the full transport."
+    ],
+    "created_at": "2026-10-21T07:41:46.297919+00:00"
+  },
+  {
+    "task": "Move a package from Station A to Station B while avoiding obstacles.",
+    "action_plan": [
+      "Scan the environment with lidar/depth sensors to locate Station A, Station B, and all static or moving obstacles (walls, carts, low‑clearance beams, etc.).",
+      "Identify and flag hazardous zones (e.g., narrow passages, moving carts, unstable flooring) and mark safe travel corridors that connect A to B while staying clear of them.",
+      "Select the corridor with the greatest clearance and most stable footing for the robot’s base; note any required speed reductions or deceleration zones.",
+      "Program a step‑by‑step motion sequence that follows the chosen corridor, pausing at each waypoint to re‑verify obstacle clearance using real‑time sensor feedback.",
+      "Integrate continuous obstacle detection (e.g., lidar or depth camera) to trigger an immediate stop or automatic reroute if a new hazard appears.",
+      "Perform a final safety check: confirm battery level, verify all sensors are functional, and ensure the"
+    ],
+    "created_at": "2026-10-21T07:42:45.559222+00:00"
+  },
+  {
+    "task": "Move a package from Station A to Station B while avoiding obstacles.",
+    "action_plan": [
+      "Scan the workspace with lidar/depth sensors to locate Station A, Station B, and all static or moving obstacles (walls, carts, low‑clearance beams, etc.).",
+      "Generate a collision‑free corridor from A to B, prioritizing routes with the greatest clearance and stable footing for the robot’s base; mark intermediate waypoints along this path.",
+      "Program a step‑by‑step motion sequence that moves the robot from waypoint to waypoint, pausing at each point to re‑verify clearance and package stability.",
+      "Integrate real‑time obstacle detection (e.g., lidar or depth camera) so that any newly appearing hazard triggers an immediate stop or automatic reroute.",
+      "Perform a final safety check: confirm battery level, verify all sensors are operational, and ensure the package is securely attached before departing.",
+      "Execute the planned route, continuously monitoring sensor feedback; if clearance is lost at any point, halt and initiate a safe abort or alternative path."
+    ],
+    "created_at": "2026-10-21T07:43:01.406561+00:00"
+  },
+  {
+    "id": "0fe2daac-1191-44aa-aab1-3a64c0afd620",
+    "task": "Move a package from Station A to Station B while avoiding obstacles.",
+    "action_plan": [
+      "Scan the workspace with lidar/depth sensors to locate Station A, Station B, and all static or moving obstacles (walls, carts, low‑clearance beams, etc.).",
+      "Identify hazardous zones (e.g., narrow passages, moving carts, unstable flooring) and mark safe travel corridors that connect A to"
+    ],
+    "created_at": "2026-10-21T07:49:00.198247+00:00",
+    "outcome": "pending",
+    "outcome_reason": null,
+    "outcome_recorded_at": null
+  },
+  {
+    "id": "ebb740b0-6480-43a1-b96d-0a5e1e020865",
+    "task": "Move a package from Station A to Station B while avoiding obstacles.",
+    "action_plan": [
+      "Scan the workspace with lidar/depth sensors to locate Station A, Station B, and all static or moving obstacles (walls, carts, low‑clearance beams, uneven flooring, etc.).",
+      "Identify hazardous zones (narrow passages, moving carts, unstable surfaces) and map safe travel corridors that connect A to B while staying clear of them.",
+      "Choose the corridor with the greatest clearance and most stable footing; note any required speed reductions or deceleration zones along the route.",
+      "Program a step‑by‑step motion sequence that follows the selected corridor, pausing at each waypoint to re‑verify obstacle clearance and package stability using real‑time sensor feedback.",
+      "Perform a final safety check: confirm battery level, verify all sensors are operational, ensure the package is securely attached, and validate that emergency stop functions are active.",
+      "Execute the planned route, continuously monitoring sensor data; if clearance is lost at any point, halt immediately and initiate"
+    ],
+    "created_at": "2026-10-21T07:58:35.644478+00:00",
+    "outcome": "success",
+    "outcome_reason": "The virtual simulation reached Station B.",
+    "outcome_recorded_at": "2026-10-21T08:00:32.511642+00:00"
+  },
+  {
+    "id": "25a7a196-0a20-4b2b-b59f-dccb4e5b2344",
+    "task": "Move a package from Station A to Station B while avoiding obstacles.",
+    "action_plan": [
+      "Scan the area with lidar/depth sensors to locate Station A, Station B, and all static or moving obstacles (walls, carts, low‑clearance beams, uneven flooring, etc.).",
+      "Mark hazardous zones such as narrow passages, moving carts, or unstable surfaces, then map at least two alternative corridors that connect A to B while staying clear of them.",
+      "Select the safest corridor—preferring the widest clearance and most stable footing—and note any required speed reductions or deceleration zones along the route.",
+      "Program a step‑by‑step motion sequence that follows the chosen corridor, pausing at each waypoint to re‑verify obstacle clearance and package stability using real‑time sensor feedback.",
+      "Perform a final safety check: confirm battery level, verify all sensors are operational, ensure the package is securely attached, and test emergency‑stop functionality.",
+      "Execute the planned route, continuously monitoring sensor data; if clearance is lost at any point, halt immediately and initiate a safe"
+    ],
+    "created_at": "2026-10-21T08:05:28.506952+00:00",
+    "outcome": "pending",
+    "outcome_reason": null,
+    "outcome_recorded_at": null
+  },
+  {
+    "id": "54763b60-f164-46d3-898e-619217948af0",
+    "task": "Move a package from Station A to Station B while avoiding obstacles.",
+    "action_plan": [
+      "Scan the area with lidar/depth sensors to locate Station A, Station B, and all static or moving obstacles (walls, carts, low‑clearance beams, uneven flooring, etc.).",
+      "Mark any hazardous zones such as narrow passages, moving carts, or unstable surfaces, and map at least two alternative corridors that keep the robot clear of them.",
+      "Select the safest corridor—prefer the widest clearance and most stable footing—and note any required speed reductions or deceleration zones along the route.",
+      "Program a step‑by‑step motion sequence that follows the chosen corridor, pausing at each waypoint to re‑verify obstacle clearance and package stability using real‑time sensor feedback.",
+      "Perform a final safety check: confirm battery level, verify all sensors are operational, ensure the package is securely attached, and test emergency‑stop functionality.",
+      "Execute the planned route while"
+    ],
+    "created_at": "2026-10-21T08:17:49.904796+00:00",
+    "outcome": "success",
+    "outcome_reason": "The virtual simulation reached Station B.",
+    "outcome_recorded_at": "2026-10-21T08:21:15.824549+00:00"
+  },
+  {
+    "id": "1f7aeb0b-3577-4d85-b0ef-55f638f38caa",
+    "task": "Move a package from Station A to Station B while avoiding obstacles.",
+    "action_plan": [
+      "Scan the environment with lidar/depth sensors to locate Station A, Station B, and all static or moving obstacles (walls, carts, low‑clearance beams, uneven flooring, etc.).",
+      "Mark hazardous zones (narrow passages, moving carts, unstable surfaces) and map at least two alternative corridors that keep the robot clear of them.",
+      "Choose the safest corridor—preferring the widest clearance and most stable footing—and note any required speed reductions or deceleration zones along the route.",
+      "Program a step‑by‑step motion sequence"
+    ],
+    "created_at": "2026-10-21T08:32:24.712176+00:00",
+    "outcome": "success",
+    "outcome_reason": "The virtual robot reached Station B after the 2D route check passed.",
+    "outcome_recorded_at": "2026-10-21T08:32:27.180999+00:00"
+  },
+  {
+    "id": "75f92b0f-c378-4a9f-9306-a38327490da7",
+    "task": "Move a package from Station A to Station B while avoiding obstacles.",
+    "action_plan": [
+      "Scan the environment with lidar/depth sensors to"
+    ],
+    "created_at": "2026-10-21T08:35:19.368973+00:00",
+    "outcome": "success",
+    "outcome_reason": "The virtual robot reached Station B after the 2D route check passed.",
+    "outcome_recorded_at": "2026-10-21T08:35:21.684826+00:00"
+  },
+  {
+    "id": "d2ad4c0f-913d-47ff-b990-301d5222e2de",
+    "task": "Move a package from Station A to Station B while avoiding obstacles.",
+    "action_plan": [
+      "Scan the environment with lidar/depth sensors to detect Station A, Station B, and all static or moving obstacles (walls, carts, low‑clearance beams, uneven flooring, etc.).",
+      "Identify hazardous zones (narrow passages, moving carts, unstable surfaces) and map at least two alternative corridors that keep the robot clear of them.",
+      "Select the safest corridor—prefer the widest clearance and most stable footing—and note any required speed reductions or deceleration zones along the route.",
+      "Program a step‑by‑step motion sequence that follows the chosen corridor, pausing at each waypoint to re‑verify obstacle clearance and package stability using real‑time sensor feedback.",
+      "Perform a final safety check: confirm battery level, verify all sensors are operational, ensure the package is securely attached, and test emergency‑stop functionality.",
+      "Execute the planned route while continuously monitoring sensor data for unexpected changes."
+    ],
+    "created_at": "2026-10-21T08:42:40.053361+00:00",
+    "outcome": "pending",
+    "outcome_reason": null,
+    "outcome_recorded_at": null
+  },
+  {
+    "id": "3620b608-ba07-4cb9-bf46-361719b3a25f",
+    "task": "Move a package from Station A to Station B while avoiding obstacles.",
+    "action_plan": [
+      "Clarify the requested virtual task: Move a package from Station A to Station B while avoiding obstacles..",
+      "Identify the simulated start point, destination, obstacles, and available clear space.",
+      "Check the proposed route for blocked cells and leave a visible margin around obstacles.",
+      "Choose a collision-aware path and divide it into clear waypoints for the virtual robot.",
+      "If an obstacle moves or blocks the route, pause the visual simulation and calculate another path.",
+      "Review the virtual route and report the result; this plan does not verify real-world robot safety."
+    ],
+    "created_at": "2026-10-21T17:30:23.314685+00:00",
+    "outcome": "success",
+    "outcome_reason": "The virtual robot reached Station B after the 2D route check passed.",
+    "outcome_recorded_at": "2026-10-21T17:47:41.930512+00:00"
+  },
+  {
+    "id": "dfde2c23-5ecb-4919-8249-691b29ce97a1",
+    "task": "Move a package from Station A to Station B while avoiding obstacles.",
+    "action_plan": [
+      "Identify the simulated start point at Station A, the goal at Station B, and list all static and dynamic obstacles present in the 2D environment.",
+      "Inspect the layout for hazardous zones such as narrow passages, moving carts, or low‑clearance beams and evaluate the available clearance around each obstacle.",
+      "Choose a collision‑free corridor that maximizes clearance and stability while minimizing travel distance.",
+      "Define a sequence of waypoints along the selected corridor that the virtual robot will follow, ensuring each waypoint is spaced to allow safe maneuvering.",
+      "If a new obstacle appears or the route becomes blocked, pause the simulation, recompute an alternate path, and update the waypoint list accordingly.",
+      "Perform a final virtual safety check confirming that the planned route avoids all identified hazards and state that this plan does not verify real‑world robot safety."
+    ],
+    "created_at": "2026-10-21T17:53:38.134223+00:00",
+    "outcome": "success",
+    "outcome_reason": "The virtual robot reached Station B after the 2D route check passed.",
+    "outcome_recorded_at": "2026-10-21T17:53:40.381098+00:00"
+  },
+  {
+    "id": "28010ed3-38df-49fa-82ec-4aa6bb233d4c",
+    "task": "Move a package from Station A to Station B while avoiding obstacles.",
+    "action_plan": [
+      "Identify the simulated start point at Station A, the goal at Station B, and list all static and dynamic obstacles present in the 2D environment.",
+      "Inspect the layout for hazardous zones such as narrow passages, moving carts, or low‑clearance beams and evaluate the clearance around each obstacle.",
+      "Choose a collision‑free corridor that maximizes clearance and stability while minimizing travel distance.",
+      "Define a sequence of waypoints along the selected corridor that the virtual robot will follow, spacing them to allow safe maneuvering.",
+      "If a new obstacle appears or the route becomes blocked, pause the simulation, recompute an alternate path, and update the waypoint list accordingly.",
+      "Perform a final virtual safety check confirming the route avoids all identified hazards, and state that this plan does not verify real‑world robot safety."
+    ],
+    "created_at": "2026-10-21T17:59:58.702342+00:00",
+    "outcome": "success",
+    "outcome_reason": "The virtual robot reached Station B after the 2D route check passed.",
+    "outcome_recorded_at": "2026-10-21T18:00:01.010921+00:00"
+  },
+  {
+    "id": "0d1c9122-0ce5-46cd-9a63-2f2f93710480",
+    "task": "Move a package from Station A to Station B while avoiding obstacles.",
+    "action_plan": [
+      "Identify the simulated start point at Station A, the goal at Station B, and enumerate all static and dynamic obstacles present in the 2D environment.",
+      "Inspect the layout for hazardous zones such as narrow passages, moving carts, or low‑clearance beams and evaluate the clearance around each obstacle.",
+      "Choose a collision‑free corridor that maximizes clearance and stability while minimizing travel distance.",
+      "Define a sequence of waypoints along the selected corridor that the virtual robot will follow, spacing them to allow safe maneuvering.",
+      "If a new obstacle appears or the route becomes blocked, pause the simulation, recompute an alternate path, and update the waypoint list accordingly.",
+      "Perform a final virtual safety check confirming the route avoids all identified hazards and explicitly state that this plan does not verify real‑world robot safety."
+    ],
+    "created_at": "2026-10-21T18:01:04.825811+00:00",
+    "outcome": "success",
+    "outcome_reason": "The virtual robot reached Station B after the 2D route check passed.",
+    "outcome_recorded_at": "2026-10-21T18:01:06.966761+00:00"
+  },
+  {
+    "id": "370d1ee7-11ac-4d27-bde8-8ee1fd0ac51e",
+    "task": "Move a package from Station A to Station B while avoiding obstacles.",
+    "action_plan": [
+      "Clarify the requested virtual task: Move a package from Station A to Station B while avoiding obstacles..",
+      "Identify the simulated start point, destination, obstacles, and available clear space.",
+      "Check the proposed route for blocked cells and leave a visible margin around obstacles.",
+      "Choose a collision-aware path and divide it into clear waypoints for the virtual robot.",
+      "If an obstacle moves or blocks the route, pause the visual simulation and calculate another path.",
+      "Review the virtual route and report the result; this plan does not verify real-world robot safety."
+    ],
+    "created_at": "2026-10-21T18:02:27.618316+00:00",
+    "outcome": "success",
+    "outcome_reason": "The virtual robot reached Station B after the 2D route check passed.",
+    "outcome_recorded_at": "2026-10-21T18:02:29.804154+00:00"
+  },
+  {
+    "id": "a0d4bcb4-3d79-4fec-bc48-2c0cb174faa5",
+    "task": "Move a package from Station A to Station B while avoiding obstacles.",
+    "action_plan": [
+      "Identify the simulated start point at Station A, the goal at Station B, and enumerate all static and dynamic obstacles in the 2D environment.",
+      "Inspect the layout for hazardous zones such as narrow passages, moving carts, or low‑clearance beams and evaluate the clearance around each obstacle.",
+      "Choose a collision‑free corridor that maximizes clearance and stability while minimizing travel distance.",
+      "Define a sequence of waypoints along the selected corridor that the virtual robot will follow, spacing them to allow safe maneuvering.",
+      "If a new obstacle appears or the route becomes blocked, pause the simulation, recompute an alternate path, and update the waypoint list accordingly.",
+      "Perform a final virtual safety check confirming the route avoids all identified hazards, and explicitly state that this plan does not verify real‑world robot safety."
+    ],
+    "created_at": "2026-10-21T18:03:39.046027+00:00",
+    "outcome": "success",
+    "outcome_reason": "The virtual robot reached Station B after the 2D route check passed.",
+    "outcome_recorded_at": "2026-10-21T18:03:41.657324+00:00"
+  },
+  {
+    "id": "83aec63f-2b17-4c36-9bc2-febc523867c3",
+    "task": "Move a package from Station A to Station B while avoiding obstacles.",
+    "action_plan": [
+      "Identify the simulated start point at Station A, the goal at Station B, and list all static and dynamic obstacles in the 2D environment.",
+      "Inspect the layout for hazardous zones such as narrow passages, moving carts, or low‑clearance beams and evaluate the clearance around each obstacle.",
+      "Choose a collision‑free corridor that balances maximum clearance with a short travel distance.",
+      "Define a sequence of waypoints along the selected corridor that the virtual robot will follow, spacing them to allow safe maneuvering.",
+      "If a new obstacle appears or the route becomes blocked, pause the simulation, recompute an alternate path, and update the waypoint list accordingly.",
+      "Perform a final virtual safety check confirming the route avoids all identified hazards and explicitly state that this plan does not verify real‑world robot safety."
+    ],
+    "created_at": "2026-10-21T18:05:35.978752+00:00",
+    "outcome": "success",
+    "outcome_reason": "The virtual robot reached Station B after the 2D route check passed.",
+    "outcome_recorded_at": "2026-10-21T18:05:38.105149+00:00"
+  },
+  {
+    "id": "c27ecb39-f5eb-409f-af49-7e977d1a6cc1",
+    "task": "Move a package from Station A to Station B while avoiding obstacles.",
+    "action_plan": [
+      "Identify the simulated start point at Station A, the goal at Station B, and list all static and dynamic obstacles present in the 2D environment.",
+      "Inspect the layout for hazardous zones such as narrow passages, moving carts, or low‑clearance beams and evaluate the clearance around each obstacle.",
+      "Choose a collision‑free corridor that balances maximum clearance with a short travel distance.",
+      "Define a sequence of waypoints along the selected corridor that the virtual robot will follow, spacing them to allow safe maneuvering.",
+      "If a new obstacle appears or the route becomes blocked, pause the simulation, recompute an alternate path, and update the waypoint list accordingly.",
+      "Perform a final virtual safety check confirming the route avoids all identified hazards and explicitly state that this plan does not verify real‑world robot safety."
+    ],
+    "created_at": "2026-10-21T18:10:00.608196+00:00",
+    "outcome": "success",
+    "outcome_reason": "The virtual robot reached Station B after the 2D route check passed.",
+    "outcome_recorded_at": "2026-10-21T18:10:02.884977+00:00"
+  },
+  {
+    "id": "20dfe07a-b140-4fa0-8bac-f1e43eb13587",
+    "task": "Move a package from Station A to Station B while avoiding obstacles.",
+    "action_plan": [
+      "Identify the simulated start point at Station A, the goal at Station B, and list all static and dynamic obstacles present in the 2D environment.",
+      "Inspect the layout for hazardous zones such as narrow passages, moving carts, or low‑clearance beams and evaluate the clearance around each obstacle.",
+      "Choose a collision‑free corridor that balances maximum clearance with a short travel distance.",
+      "Define a sequence of waypoints along the selected corridor that the virtual robot will follow, spacing them to allow safe maneuvering.",
+      "If a new obstacle appears or the route becomes blocked, pause the simulation, recompute an alternate path, and update the waypoint list accordingly.",
+      "Perform a final virtual safety check confirming the route avoids all identified hazards and explicitly state that this plan does not verify real‑world robot safety."
+    ],
+    "created_at": "2026-10-21T18:10:50.160860+00:00",
+    "outcome": "success",
+    "outcome_reason": "The virtual robot reached Station B after the 2D route check passed.",
+    "outcome_recorded_at": "2026-10-21T18:10:52.315645+00:00"
+  },
+  {
+    "id": "abb983b2-84b5-4cfb-bd7d-ce8606f98d47",
+    "task": "Move a package from Station A to Station B while avoiding obstacles.",
+    "action_plan": [
+      "Identify the starting location at Station A, the destination at Station B, and enumerate all static and dynamic obstacles present in the 2D simulation space.",
+      "Examine the environment for hazardous zones such as tight corridors, swinging equipment, or low‑clearance structures and assess the clearance margin around each obstacle.",
+      "Select a collision‑free trajectory that maximizes clearance while keeping travel distance reasonable.",
+      "Plot a series of intermediate waypoints along the chosen trajectory, spacing them to permit safe maneuvering of the virtual robot.",
+      "If an unexpected obstacle emerges or the path is blocked, halt the simulation, recompute an alternate route, and revise the waypoint list accordingly.",
+      "Conduct a final virtual safety verification that confirms the route avoids all identified hazards and explicitly state that this plan does not verify real‑world robot safety."
+    ],
+    "created_at": "2026-10-21T18:11:57.040287+00:00",
+    "outcome": "success",
+    "outcome_reason": "The virtual robot reached Station B after the 2D route check passed.",
+    "outcome_recorded_at": "2026-10-21T18:11:59.627919+00:00"
+  },
+  {
+    "id": "41c9c970-8adc-463c-9945-eb03db17e8af",
+    "task": "Move a package from Station A to Station B while avoiding obstacles.",
+    "action_plan": [
+      "Identify the starting location at Station A, the destination at Station B, and list all static and dynamic obstacles currently present in the 2D simulation space.",
+      "Inspect the environment for hazardous zones such as narrow passages, swinging equipment, or low‑clearance structures and evaluate the clearance margin around each obstacle.",
+      "Choose a collision‑free trajectory that maximizes clearance while keeping the travel distance reasonable.",
+      "Define a sequence of intermediate waypoints along the selected trajectory, spacing them to allow safe maneuvering of the virtual robot.",
+      "If an unexpected obstacle appears or the path becomes blocked, pause the simulation, recompute an alternate route, and update the waypoint list accordingly.",
+      "Conduct a final virtual safety verification that confirms the route avoids all identified hazards and explicitly state that this plan does not verify real‑world robot safety."
+    ],
+    "created_at": "2026-10-21T18:13:13.153253+00:00",
+    "outcome": "success",
+    "outcome_reason": "The virtual robot reached Station B after the 2D route check passed.",
+    "outcome_recorded_at": "2026-10-21T18:13:15.388310+00:00"
+  },
+  {
+    "id": "1a250c76-eb4b-4d47-a3ec-c3fe9afa206e",
+    "task": "Move a package from Station A to Station B while avoiding obstacles.",
+    "action_plan": [
+      "Identify the starting location at Station A, the destination at Station B, and enumerate all static and dynamic obstacles currently present in the 2D simulation space.",
+      "Inspect the environment for hazardous zones such as narrow passages, swinging equipment, or low‑clearance structures and evaluate the clearance margin around each obstacle.",
+      "Choose a collision‑free trajectory that maximizes clearance while keeping the travel distance reasonable.",
+      "Define a sequence of intermediate waypoints along the selected trajectory, spacing them to allow safe maneuvering of the virtual robot.",
+      "If an unexpected obstacle appears or the path becomes blocked, pause the simulation, recompute an alternate route, and update the waypoint list accordingly.",
+      "Conduct a final virtual safety verification that confirms the route avoids all identified hazards and explicitly state that this plan does not verify real‑world robot safety."
+    ],
+    "created_at": "2026-10-21T18:19:29.782002+00:00",
+    "outcome": "success",
+    "outcome_reason": "The virtual robot reached Station B after the 2D route check passed.",
+    "outcome_recorded_at": "2026-10-21T18:19:32.084867+00:00"
+  },
+  {
+    "id": "37340821-1d76-4a40-8389-7e1bd8910cd7",
+    "task": "Move a package from Station A to Station B while avoiding obstacles.",
+    "action_plan": [
+      "Identify the starting point at Station A, the target location at Station B, and list all static and dynamic obstacles currently present in the 2D simulation environment.",
+      "Inspect the simulated area for hazardous zones such as narrow passages, swinging equipment, or low‑clearance structures and measure the clearance margin around each obstacle.",
+      "Choose a collision‑free trajectory that maximizes clearance while keeping the travel distance reasonable.",
+      "Define a sequence of intermediate waypoints along the selected trajectory, spacing them to allow safe maneuvering of the virtual robot.",
+      "If an unexpected obstacle appears or the path becomes blocked, pause the simulation, recompute an alternate route, and update the waypoint list accordingly.",
+      "Conduct a final virtual safety verification that confirms the route avoids all identified hazards and explicitly state that this plan does not verify real‑world robot safety."
+    ],
+    "created_at": "2026-10-21T18:22:29.658283+00:00",
+    "outcome": "success",
+    "outcome_reason": "The virtual robot reached Station B after the 2D route check passed.",
+    "outcome_recorded_at": "2026-10-21T18:22:31.839170+00:00"
+  },
+  {
+    "id": "2cc36670-c803-436e-9c0f-e0f5cb5d72bf",
+    "task": "Move a package from Station A to Station B while avoiding obstacles.",
+    "action_plan": [
+      "Clarify the requested virtual task: Move a package from Station A to Station B while avoiding obstacles..",
+      "Identify the simulated start point, destination, obstacles, and available clear space.",
+      "Check the proposed route for blocked cells and leave a visible margin around obstacles.",
+      "Choose a collision-aware path and divide it into clear waypoints for the virtual robot.",
+      "If an obstacle moves or blocks the route, pause the visual simulation and calculate another path.",
+      "Review the virtual route and report the result; this plan does not verify real-world robot safety."
+    ],
+    "created_at": "2026-10-21T18:24:08.791564+00:00",
+    "outcome": "success",
+    "outcome_reason": "The virtual robot reached Station B after the 2D route check passed.",
+    "outcome_recorded_at": "2026-10-21T18:24:10.938352+00:00"
+  },
+  {
+    "id": "5a5abde4-dd4c-41df-8ab1-d3a4d67a2dc5",
+    "task": "Move a package from Station A to Station B while avoiding obstacles.",
+    "action_plan": [
+      "Identify the start location at Station A, the destination at Station B, and enumerate all static and dynamic obstacles currently present in the 2D simulation environment.",
+      "Inspect the simulated area for hazardous zones such as narrow passages, swinging equipment, or low‑clearance structures and measure the clearance margin around each obstacle.",
+      "Choose a collision‑free trajectory that maximizes clearance while keeping the travel distance reasonable.",
+      "Define a sequence of intermediate waypoints along the selected trajectory, spacing them to allow safe maneuvering of the virtual robot.",
+      "If an unexpected obstacle appears or the path becomes blocked, pause the simulation, recompute an alternate route, and update the waypoint list accordingly.",
+      "Conduct a final virtual safety verification that confirms the route avoids all identified hazards and explicitly state that this plan does not verify real‑world robot safety."
+    ],
+    "created_at": "2026-10-21T18:25:34.496240+00:00",
+    "outcome": "success",
+    "outcome_reason": "The virtual robot reached Station B after the 2D route check passed.",
+    "outcome_recorded_at": "2026-10-21T18:25:36.642243+00:00"
+  },
+  {
+    "id": "3daa7f05-f515-4829-ba29-992a02d716ed",
+    "task": "Move a package from Station A to Station B while avoiding obstacles.",
+    "action_plan": [
+      "Identify the start point at Station A, the destination at Station B, and list all static and dynamic obstacles currently present in the 2D simulation environment.",
+      "Inspect the simulated area for hazardous zones such as narrow passages, swinging equipment, or low‑clearance structures and measure the clearance margin around each obstacle.",
+      "Choose a collision‑free trajectory that balances clearance with travel distance and select a viable path.",
+      "Define a sequence of intermediate waypoints along the chosen trajectory, spacing them to allow safe maneuvering of the virtual robot.",
+      "If an unexpected obstacle appears or the path becomes blocked, pause the simulation, recompute an alternate route, and update the waypoint list accordingly.",
+      "Conduct a final virtual safety verification that confirms the route avoids all identified hazards and explicitly state that this plan does not verify real‑world robot safety."
+    ],
+    "created_at": "2026-10-21T18:27:05.840662+00:00",
+    "outcome": "success",
+    "outcome_reason": "The virtual robot reached Station B after the 2D route check passed.",
+    "outcome_recorded_at": "2026-10-21T18:27:08.209315+00:00"
+  },
+  {
+    "id": "25d36fbd-f786-446d-a345-433218488f11",
+    "task": "Move a package from Station A to Station B while avoiding obstacles.",
+    "action_plan": [
+      "Identify the start point at Station A, the goal at Station B, and list all static and dynamic obstacles currently present in the 2D simulation environment.",
+      "Inspect the simulated area for hazardous zones such as narrow passages, swinging equipment, or low‑clearance structures and measure the clearance margin around each obstacle.",
+      "Choose a collision‑free trajectory that balances clearance with travel distance and select a viable path.",
+      "Define a sequence of intermediate waypoints along the chosen trajectory, spacing them to allow safe maneuvering of the virtual robot.",
+      "If an unexpected obstacle appears or the path becomes blocked, pause the simulation, recompute an alternate route, and update the waypoint list accordingly.",
+      "Conduct a final virtual safety verification that confirms the route avoids all identified hazards and explicitly state that this plan does not verify real‑world robot safety."
+    ],
+    "created_at": "2026-10-22T07:00:09.537453+00:00",
+    "outcome": "success",
+    "outcome_reason": "The virtual robot reached Station B after the 2D route check passed.",
+    "outcome_recorded_at": "2026-10-22T07:00:11.780154+00:00"
+  },
+  {
+    "id": "d3b3973b-6314-4080-9d16-fd4da7eb422a",
+    "task": "Move a package from Station A to Station B while avoiding obstacles.",
+    "action_plan": [
+      "Identify the start point at Station A, the goal at Station B, and list all static and dynamic obstacles currently present in the 2D simulation environment.",
+      "Inspect the simulated area for hazardous zones such as narrow passages, swinging equipment, or low‑clearance structures and measure the clearance margin around each obstacle.",
+      "Choose a collision‑free trajectory that balances clearance with travel distance and select a viable path.",
+      "Define a sequence of intermediate waypoints along the chosen trajectory, spacing them to allow safe maneuvering of the virtual robot.",
+      "If an unexpected obstacle appears or the path becomes blocked, pause the simulation, recompute an alternate route, and update the waypoint list accordingly.",
+      "Conduct a final virtual safety verification that confirms the route avoids all identified hazards and explicitly state that this plan does not verify real‑world robot safety."
+    ],
+    "created_at": "2026-10-22T08:05:36.650666+00:00",
+    "outcome": "success",
+    "outcome_reason": "The virtual robot reached Station B after the 2D route check passed.",
+    "outcome_recorded_at": "2026-10-22T08:05:38.981496+00:00"
+  },
+  {
+    "id": "f888ca4c-293a-4a0b-b749-d73f8c471a67",
+    "task": "Move a package from Station A to Station B while avoiding obstacles.",
+    "action_plan": [
+      "Identify the start point at Station A, the goal at Station B, and enumerate all static and dynamic obstacles currently present in the 2D simulation environment.",
+      "Inspect the simulated area for hazardous zones such as narrow passages, swinging equipment, or low‑clearance structures and measure the clearance margin around each obstacle.",
+      "Choose a collision‑free trajectory that balances clearance with travel distance and select a viable path.",
+      "Define a sequence of intermediate waypoints along the chosen trajectory, spacing them to allow safe maneuvering of the virtual robot.",
+      "If an unexpected obstacle appears or the path becomes blocked, pause the simulation, recompute an alternate route, and update the waypoint list accordingly.",
+      "Conduct a final virtual safety verification that confirms the route avoids all identified hazards and explicitly state that this plan does not verify real‑world robot safety."
+    ],
+    "created_at": "2026-10-22T08:10:10.583051+00:00",
+    "outcome": "success",
+    "outcome_reason": "The virtual robot reached Station B after the 2D route check passed.",
+    "outcome_recorded_at": "2026-10-22T08:10:12.755909+00:00"
+  },
+  {
+    "id": "c481a279-f4de-4f01-abee-0191e90e1b67",
+    "task": "Move a robot from Station A to Station B safely",
+    "action_plan": [
+      "Clarify the requested virtual task: Move a robot from Station A to Station B safely.",
+      "Identify the simulated start point, destination, obstacles, and available clear space.",
+      "Check the proposed route for blocked cells and leave a visible margin around obstacles.",
+      "Choose a collision-aware path and divide it into clear waypoints for the virtual robot.",
+      "If an obstacle moves or blocks the route, pause the visual simulation and calculate another path.",
+      "Review the virtual route and report the result; this plan does not verify real-world robot safety."
+    ],
+    "created_at": "2026-10-27T19:13:43.381379+00:00",
+    "outcome": "success",
+    "outcome_reason": "The fallback action plan was generated successfully.",
+    "outcome_recorded_at": "2026-10-27T19:21:37.498749+00:00"
+  },
+  {
+    "id": "f2386c8c-b271-4485-a88c-e8be886ba0fd",
+    "task": "Move a robot from Station A to Station B safely",
+    "action_plan": [
+      "Clarify the requested virtual task: Move a robot from Station A to Station B safely.",
+      "Identify the simulated start point, destination, obstacles, and available clear space.",
+      "Check the proposed route for blocked cells and leave a visible margin around obstacles.",
+      "Choose a collision-aware path and divide it into clear waypoints for the virtual robot.",
+      "If an obstacle moves or blocks the route, pause the visual simulation and calculate another path.",
+      "Review the virtual route and report the result; this plan does not verify real-world robot safety."
+    ],
+    "created_at": "2026-10-27T19:29:40.361386+00:00",
+    "outcome": "pending",
+    "outcome_reason": null,
+    "outcome_recorded_at": null
+  },
+  {
+    "id": "b2388d98-198b-457e-96e6-b4e18f777d40",
+    "task": "Move a robot from Station A to Station B safely",
+    "action_plan": [
+      "Clarify the requested virtual task: Move a robot from Station A to Station B safely.",
+      "Identify the simulated start point, destination, obstacles, and available clear space.",
+      "Check the proposed route for blocked cells and leave a visible margin around obstacles.",
+      "Choose a collision-aware path and divide it into clear waypoints for the virtual robot.",
+      "If an obstacle moves or blocks the route, pause the visual simulation and calculate another path.",
+      "Review the virtual route and report the result; this plan does not verify real-world robot safety."
+    ],
+    "created_at": "2026-10-27T19:35:33.492767+00:00",
+    "outcome": "success",
+    "outcome_reason": "Tested the action plan successfully in the virtual task interface.",
+    "outcome_recorded_at": "2026-10-28T17:12:48.537449+00:00"
+  },
+  {
+    "id": "23733e96-a3e3-4e09-8fbd-fa4316378b82",
+    "task": "Move a virtual robot from Station A to Station B while avoiding obstacles safely",
+    "action_plan": [
+      "Identify the virtual start point at Station A, the goal at Station B, and any obstacles present in the simulated environment.",
+      "Inspect the simulated hazards, checking clearance distances and marking unsafe cells for avoidance.",
+      "Choose a collision‑aware route that respects the identified clearance margins.",
+      "Define clear waypoints along the chosen path to guide the virtual robot step by step.",
+      "If new obstacles appear during simulation, pause the visual run and compute an alternate path that maintains safety margins.",
+      "Perform a final virtual check of the route and report the result; this plan does not verify real‑world robot safety."
+    ],
+    "created_at": "2026-10-28T16:56:18.292150+00:00",
+    "outcome": "pending",
+    "outcome_reason": null,
+    "outcome_recorded_at": null
+  },
+  {
+    "id": "2c1d0e2a-c9c2-4f60-8f92-aa156e1442c9",
+    "task": "Move a virtual robot from Station A to Station B while avoiding obstacles safely.",
+    "action_plan": [
+      "Identify the virtual start point at Station A, the goal at Station B, and list all obstacles present in the simulated environment.",
+      "Inspect the simulated hazards by measuring clearance distances and marking any cells that fall below safe margins.",
+      "Choose a collision‑aware route that respects the identified clearance margins and avoids all marked unsafe cells.",
+      "Define clear waypoints along the chosen path to guide the virtual robot step by step from start to goal.",
+      "If new obstacles appear during the simulation, pause the visual run and compute an alternate path that maintains the required safety margins.",
+      "Perform a final virtual check of the route and report the result; this plan does not verify real‑world robot safety."
+    ],
+    "created_at": "2026-10-28T17:03:34.397286+00:00",
+    "outcome": "success",
+    "outcome_reason": "The virtual robot reached Station B after the 2D route check passed.",
+    "outcome_recorded_at": "2026-10-28T17:03:36.845513+00:00"
+  },
+  {
+    "id": "50374ab5-c934-47a2-8320-36ca65929eac",
+    "task": "Move a robot from Station A to Station B while avoiding a new obstacle.",
+    "action_plan": [
+      "Identify the virtual start point at Station A, the goal at Station B, and list any obstacles currently present in the simulated environment.",
+      "Inspect the simulated hazards by measuring clearance distances and marking cells that fall below safe margins.",
+      "Choose a collision‑aware route that respects the identified clearance margins and avoids all marked unsafe cells.",
+      "Define clear waypoints along the chosen path to guide the virtual robot step by step from start to goal.",
+      "If new obstacles appear during the simulation, pause the visual run and compute an alternate path that maintains the required safety margins.",
+      "Perform a final virtual check of the route and report the result; this plan does not verify real‑world robot safety."
+    ],
+    "created_at": "2026-10-28T17:17:52.827866+00:00",
+    "outcome": "success",
+    "outcome_reason": "The virtual robot reached Station B after the 2D route check passed.",
+    "outcome_recorded_at": "2026-10-28T17:17:55.209466+00:00"
+  },
+  {
+    "id": "e8c74c74-8f07-448c-a2a0-a62fcd3b4f1c",
+    "task": "Move a robot from Station A to Station B while avoiding a new obstacle.",
+    "action_plan": [
+      "Identify the virtual start point at Station A, the goal at Station B, and list all obstacles currently present in the simulated environment.",
+      "Inspect the simulated hazards by measuring clearance distances and marking any cells that fall below safe margins.",
+      "Choose a collision‑aware route that respects the identified clearance margins and avoids all marked unsafe cells.",
+      "Define clear waypoints along the chosen path to guide the virtual robot step by step from start to goal.",
+      "If new obstacles appear during the simulation, pause the visual run and compute an alternate path that maintains the required safety margins.",
+      "Perform a final virtual check of the route and report the result; this plan does not verify real‑world robot safety."
+    ],
+    "created_at": "2026-10-28T17:24:20.358196+00:00",
+    "outcome": "success",
+    "outcome_reason": "The virtual robot reached Station B after the 2D route check passed.",
+    "outcome_recorded_at": "2026-10-28T17:24:28.656000+00:00"
+  },
+  {
+    "id": "9104aa01-3974-4efe-8879-9cfdaec49109",
+    "task": "Move a robot from Station A to Station B while avoiding a new obstacle.",
+    "action_plan": [
+      "Identify the virtual start at Station A, the goal at Station B, and enumerate all obstacles currently present in the simulated arena.",
+      "Inspect the simulated hazards by measuring clearance distances and flag any cells that fall below the required safety margins.",
+      "Choose a collision‑aware route that respects the identified clearance margins and steers clear of all flagged unsafe cells.",
+      "Define a series of waypoints along the selected path to guide the virtual robot step by step from start to goal.",
+      "If new obstacles appear during the simulation, pause the visual run and compute an alternate path that maintains the required safety margins.",
+      "Perform a final virtual check of the route and report the result; this plan does not verify real‑world robot safety."
+    ],
+    "created_at": "2026-10-28T17:26:35.520928+00:00",
+    "outcome": "success",
+    "outcome_reason": "The virtual robot reached Station B after the 2D route check passed.",
+    "outcome_recorded_at": "2026-10-28T17:26:42.683690+00:00"
+  },
+  {
+    "id": "d8a88aaf-b719-4ed6-9161-e97966646bd5",
+    "task": "Move a robot from Station A to Station B while avoiding a new obstacle.",
+    "action_plan": [
+      "Identify the virtual start at Station A, the goal at Station B, and list all obstacles currently present in the simulated arena.",
+      "Inspect the simulated hazards by measuring clearance distances and flag any cells that fall below the required safety margins.",
+      "Choose a collision‑aware route that respects the identified clearance margins and avoids all flagged unsafe cells.",
+      "Define a series of waypoints along the selected path to guide the virtual robot step by step from start to goal.",
+      "If new obstacles appear during the simulation, pause the visual run and compute an alternate path that maintains the required safety margins.",
+      "Perform a final virtual check of the route and report the result; this plan does not verify real‑world robot safety."
+    ],
+    "created_at": "2026-10-28T17:28:53.386913+00:00",
+    "outcome": "success",
+    "outcome_reason": "The virtual robot reached Station B after the 2D route check passed.",
+    "outcome_recorded_at": "2026-10-28T17:28:55.603826+00:00"
+  },
+  {
+    "id": "8c9517c6-8d7c-4b3e-8ac1-872bff11e512",
+    "task": "Move a robot from Station A to Station B while avoiding a new obstacle.",
+    "action_plan": [
+      "Identify the virtual start at Station A, the goal at Station B, and list all obstacles currently present in the simulated arena.",
+      "Inspect the simulated hazards by measuring clearance distances and flag any cells that fall below the required safety margins.",
+      "Choose a collision‑aware route that respects the identified clearance margins and avoids all flagged unsafe cells.",
+      "Define a series of waypoints along the selected path to guide the virtual robot step by step from start to goal.",
+      "If new obstacles appear during the simulation, pause the visual run and compute an alternate path that maintains the required safety margins.",
+      "Perform a final virtual check of the route and report the result; this plan does not verify real‑world robot safety."
+    ],
+    "created_at": "2026-10-28T17:45:01.648614+00:00",
+    "outcome": "success",
+    "outcome_reason": "The virtual robot reached Station B after the 2D route check passed.",
+    "outcome_recorded_at": "2026-10-28T17:45:03.886257+00:00"
+  },
+  {
+    "id": "f93a9312-dfab-439f-aa35-4e8377462335",
+    "task": "Move a robot from Station A to Station B while avoiding a new obstacle.",
+    "action_plan": [
+      "Identify the virtual start at Station A, the goal at Station B, and list all obstacles currently present in the simulated arena.",
+      "Inspect the simulated hazards by measuring clearance distances and flag any cells that fall below the required safety margins.",
+      "Choose a collision‑aware route that respects the identified clearance margins and avoids all flagged unsafe cells.",
+      "Define a series of waypoints along the selected path to guide the virtual robot step by step from start to goal.",
+      "If new obstacles appear during the simulation, pause the visual run and compute an alternate path that maintains the required safety margins.",
+      "Perform a final virtual check of the route and report the result; this plan does not verify real‑world robot safety."
+    ],
+    "created_at": "2026-10-28T18:09:26.685137+00:00",
+    "outcome": "success",
+    "outcome_reason": "The virtual robot reached Station B after the 2D route check passed.",
+    "outcome_recorded_at": "2026-10-28T18:09:29.746962+00:00"
+  },
+  {
+    "id": "144adfc0-3fc9-4930-8781-7fc3470d5570",
+    "task": "Move a robot from Station A to Station B while avoiding a new obstacle.",
+    "action_plan": [
+      "Identify the virtual start at Station A, the goal at Station B, and list all obstacles currently present in the simulated arena.",
+      "Inspect the simulated hazards by measuring clearance distances and flag any cells that fall below the required safety margins.",
+      "Choose a collision‑aware route that respects the identified clearance margins and avoids all flagged unsafe cells.",
+      "Define a series of waypoints along the selected path to guide the virtual robot step by step from start to goal.",
+      "If new obstacles appear during the simulation, pause the visual run and compute an alternate path that maintains the required safety margins.",
+      "Perform a final virtual check of the route and report the result; this plan does not verify real‑world robot safety."
+    ],
+    "created_at": "2026-10-28T18:39:22.478785+00:00",
+    "outcome": "success",
+    "outcome_reason": "The virtual robot reached Station B after the 2D route check passed.",
+    "outcome_recorded_at": "2026-10-28T18:39:40.888932+00:00"
+  },
+  {
+    "id": "dd70431e-9893-4611-be76-4d415e8c489f",
+    "task": "Move a robot from Station A to Station B while avoiding a new obstacle.",
+    "action_plan": [
+      "Identify the virtual start at Station A, the goal at Station B, and list all obstacles currently present in the simulated arena.",
+      "Inspect the simulated hazards by measuring clearance distances and flag any cells that fall below the required safety margins.",
+      "Choose a collision‑aware route that respects the identified clearance margins and avoids all flagged unsafe cells.",
+      "Define a series of waypoints along the selected path to guide the virtual robot step by step from start to goal.",
+      "If new obstacles appear during the simulation, pause the visual run and compute an alternate path that maintains the required safety margins.",
+      "Perform a final virtual check of the route and report the result; this plan does not verify real‑world robot safety."
+    ],
+    "created_at": "2026-10-28T19:01:25.434637+00:00",
+    "outcome": "success",
+    "outcome_reason": "The virtual robot reached Station B after the 2D route check passed.",
+    "outcome_recorded_at": "2026-10-28T19:01:27.646374+00:00"
+  },
+  {
+    "id": "f1dc327b-d865-41a1-8d96-bf8b60db475c",
+    "task": "Move a robot from Station A to Station B while avoiding a new obstacle.",
+    "action_plan": [
+      "Identify the virtual start at Station A, the goal at Station B, and enumerate all obstacles currently present in the simulated arena.",
+      "Inspect the simulated hazards by measuring clearance distances and flag any cells that fall below the required safety margins.",
+      "Choose a collision‑aware route that respects the identified clearance margins and avoids all flagged unsafe cells.",
+      "Define a series of waypoints along the selected path to guide the virtual robot step by step from start to goal.",
+      "If new obstacles appear during the simulation, pause the visual run and compute an alternate path that maintains the required safety margins.",
+      "Perform a final virtual check of the route and report the result; this plan does not verify real‑world robot safety."
+    ],
+    "created_at": "2026-10-28T19:07:21.516801+00:00",
+    "outcome": "success",
+    "outcome_reason": "The virtual robot reached Station B after the 2D route check passed.",
+    "outcome_recorded_at": "2026-10-28T19:07:23.744387+00:00"
+  },
+  {
+    "id": "e8d77d35-ff35-463a-b6b9-a9fd49974138",
+    "task": "Move a robot from Station A to Station B while avoiding a new obstacle.",
+    "action_plan": [
+      "Identify the virtual start at Station A, the goal at Station B, and list all obstacles currently present in the simulated arena.",
+      "Inspect the simulated hazards by measuring clearance distances and flag any cells that fall below the required safety margins.",
+      "Choose a collision‑aware route that respects the identified clearance margins and avoids all flagged unsafe cells.",
+      "Define a series of waypoints along the selected path to guide the virtual robot step by step from start to goal.",
+      "If new obstacles appear during the simulation, pause the visual run and compute an alternate path that maintains the required safety margins.",
+      "Perform a final virtual check of the route and report the result; this plan does not verify real‑world robot safety."
+    ],
+    "created_at": "2026-10-28T19:23:41.571633+00:00",
+    "outcome": "pending",
+    "outcome_reason": null,
+    "outcome_recorded_at": null
+  },
+  {
+    "id": "99861e32-f0de-40ec-b835-961701b9b742",
+    "task": "Move the virtual robot from Station A to Station B while avoiding the newly moved obstacle. Find an alternative safe route, verify it against all obstacle zones, and update the experience memory with the result.",
+    "action_plan": [
+      "Identify the virtual start at Station A, the goal at Station B, and enumerate all obstacles currently present in the simulated arena, including the newly moved obstacle.",
+      "Inspect the simulated hazards by measuring clearance distances to each obstacle and flag any cells that fall below the required safety margins.",
+      "Choose a collision‑aware route that respects the identified clearance margins and avoids all flagged unsafe cells.",
+      "Define a series of waypoints along the selected path to guide the virtual robot step by step from start to goal.",
+      "If new obstacles appear during the simulation, pause the visual run and compute an alternate path that maintains the required safety margins.",
+      "Perform a final virtual check of the route and report the result; this plan does not verify real‑world robot safety."
+    ],
+    "created_at": "2026-10-28T19:32:03.306986+00:00",
+    "outcome": "success",
+    "outcome_reason": "The virtual robot reached Station B after the 2D route check passed.",
+    "outcome_recorded_at": "2026-10-28T19:32:05.548810+00:00"
+  },
+  {
+    "id": "9839006f-fd0c-402e-b3eb-4585c3c5720d",
+    "task": "Move the robot from Station A to Station B while avoiding obstacles.",
+    "action_plan": [
+      "Identify the virtual start point at Station A, the goal at Station B, and list all obstacles currently present in the 2D simulation environment.",
+      "Inspect the simulated hazards by measuring clearance distances and marking any cells that fall below the required safety margins.",
+      "Choose a collision‑aware route that respects the identified clearance margins and avoids all marked unsafe cells.",
+      "Define a sequence of waypoints along the chosen path that guide the virtual robot step by step from start to goal.",
+      "If new obstacles appear during the simulation, pause the visual run and compute an alternate path that maintains the required safety margins.",
+      "Perform a final virtual check of the route and report the result; this plan does not verify real‑world robot safety."
+    ],
+    "created_at": "2026-10-29T06:56:39.191518+00:00",
+    "outcome": "success",
+    "outcome_reason": "The virtual robot reached Station B after the 2D route check passed.",
+    "outcome_recorded_at": "2026-10-29T06:56:41.462562+00:00"
+  },
+  {
+    "id": "d15e6151-e6a7-4674-a930-019e8c0a13c3",
+    "task": "Move the robot from Station A to Station B while avoiding obstacles.",
+    "action_plan": [
+      "Identify the virtual start point at Station A, the goal at Station B, and enumerate all obstacles currently present in the 2D simulation environment.",
+      "Inspect the simulated hazards by measuring clearance distances and marking any cells that fall below the required safety margins.",
+      "Choose a collision‑aware route that respects the identified clearance margins and avoids all marked unsafe cells.",
+      "Define a sequence of waypoints along the chosen path that guide the virtual robot step by step from start to goal.",
+      "If new obstacles appear during the simulation, pause the visual run and compute an alternate path that maintains the required safety margins.",
+      "Perform a final virtual check of the route and report the result; this plan does not verify real‑world robot safety."
+    ],
+    "created_at": "2026-10-29T06:59:03.941911+00:00",
+    "outcome": "success",
+    "outcome_reason": "The virtual robot reached Station B after the 2D route check passed.",
+    "outcome_recorded_at": "2026-10-29T06:59:06.879889+00:00"
+  },
+  {
+    "id": "3fc9c620-428a-4769-9a4c-702015e04549",
+    "task": "Move the robot from Station A to Station B while avoiding obstacles.",
+    "action_plan": [
+      "Identify the virtual start point at Station A, the goal at Station B, and list all obstacles currently present in the 2D simulation environment.",
+      "Inspect the simulated hazards by measuring clearance distances and marking any cells that fall below the required safety margins.",
+      "Choose a collision‑aware route that respects the identified clearance margins and avoids all marked unsafe cells.",
+      "Define a sequence of waypoints along the chosen path that guide the virtual robot step by step from start to goal.",
+      "If new obstacles appear during the simulation, pause the visual run and compute an alternate path that maintains the required safety margins.",
+      "Perform a final virtual check of the route and report the result; this plan does not verify real‑world robot safety."
+    ],
+    "created_at": "2026-10-29T07:00:01.135876+00:00",
+    "outcome": "success",
+    "outcome_reason": "The virtual robot reached Station B after the 2D route check passed.",
+    "outcome_recorded_at": "2026-10-29T07:00:03.358223+00:00"
+  },
+  {
+    "id": "ec893652-b234-40de-94a2-d368b57a8a24",
+    "task": "Move the robot from Station A to Station B while avoiding obstacles.",
+    "action_plan": [
+      "Identify the virtual start point at Station A, the goal at Station B, and list all obstacles currently present in the 2D simulation environment.",
+      "Inspect the simulated hazards by measuring clearance distances and marking any cells that fall below the required safety margins.",
+      "Choose a collision‑aware route that respects the identified clearance margins and avoids all marked unsafe cells.",
+      "Define a sequence of waypoints along the chosen path that guide the virtual robot step by step from start to goal.",
+      "If new obstacles appear during the simulation, pause the visual run and compute an alternate path that maintains the required safety margins.",
+      "Perform a final virtual check of the route and report the result; this plan does not verify real‑world robot safety."
+    ],
+    "created_at": "2026-10-29T07:02:09.962305+00:00",
+    "outcome": "success",
+    "outcome_reason": "The virtual robot reached Station B after the 2D route check passed.",
+    "outcome_recorded_at": "2026-10-29T07:02:12.207024+00:00"
+  },
+  {
+    "id": "96a3be70-d489-48a7-9f34-37a9765379a3",
+    "task": "Move the robot from Station A to Station B while avoiding obstacles.",
+    "action_plan": [
+      "Identify the virtual start at Station A, the goal at Station B, and list all obstacles currently present in the 2D simulation environment.",
+      "Inspect the simulated hazards by measuring clearance distances and marking any cells that fall below the required safety margins.",
+      "Choose a collision‑aware route that respects the identified clearance margins and avoids all marked unsafe cells.",
+      "Define a sequence of waypoints along the chosen path that guide the virtual robot step by step from start to goal.",
+      "If new obstacles appear during the simulation, pause the visual run and compute an alternate path that maintains the required safety margins.",
+      "Perform a final virtual check of the route and report the result; this plan does not verify real‑world robot safety."
+    ],
+    "created_at": "2026-10-29T07:04:11.006891+00:00",
+    "outcome": "success",
+    "outcome_reason": "The virtual robot reached Station B after the 2D route check passed.",
+    "outcome_recorded_at": "2026-10-29T07:04:13.193589+00:00"
+  },
+  {
+    "id": "6657b62d-df41-44f6-98f7-98d4196746b5",
+    "task": "Move the robot from Station A to Station B while avoiding obstacles.",
+    "action_plan": [
+      "Identify the virtual start at Station A, the goal at Station B, and list every obstacle currently occupying cells in the 2D simulation environment.",
+      "Inspect the simulated hazards by measuring clearance distances and marking any cells that fall below the required safety margins.",
+      "Choose a collision‑aware route that respects the identified clearance margins and avoids all marked unsafe cells.",
+      "Define a sequence of waypoints that guide the virtual robot step by step from start to goal along the chosen path.",
+      "If new obstacles appear during the simulation, pause the visual run and compute an alternate path that maintains the required safety margins.",
+      "Perform a final virtual check of the route and report the result; this plan does not verify real‑world robot safety."
+    ],
+    "created_at": "2026-10-29T07:05:56.625009+00:00",
+    "outcome": "success",
+    "outcome_reason": "The virtual robot reached Station B after the 2D route check passed.",
+    "outcome_recorded_at": "2026-10-29T07:05:58.939778+00:00"
+  },
+  {
+    "id": "21041bfe-ec9e-4c56-929f-c81a7fcbaebc",
+    "task": "Move the robot from Station A to Station B while avoiding all obstacles and maintaining a safe clearance. Recalculate the route based on the current obstacle positions, verify every route segment, and simulate the robot only if the safety check passes.",
+    "action_plan": [
+      "Identify the virtual start at Station A, the goal at Station B, and list all obstacles currently occupying cells in the 2D simulation arena.",
+      "Inspect the simulated hazards by measuring clearance distances to each obstacle and flag any cells that fall below the required safety margins.",
+      "Choose a collision‑aware route that respects the identified clearance margins and avoids all flagged unsafe cells.",
+      "Define a series of waypoints along the selected path that guide the virtual robot step by step from start to goal.",
+      "If new obstacles appear during the simulation, pause the visual run and compute an alternate path that maintains the required safety margins.",
+      "Perform a final virtual check of the route and report the result; this plan does not verify real‑world robot safety."
+    ],
+    "created_at": "2026-10-29T07:07:30.724869+00:00",
+    "outcome": "success",
+    "outcome_reason": "The virtual robot reached Station B after the 2D route check passed.",
+    "outcome_recorded_at": "2026-10-29T07:07:33.089725+00:00"
+  },
+  {
+    "id": "a97196fd-235d-4a66-836b-64d00c514da4",
+    "task": "Move the robot from Station A to Station B using a different safe route. Avoid both obstacles, maintain the required safety clearance, recalculate the route using their current positions, and verify every route segment before simulating the robot.",
+    "action_plan": [
+      "Clarify the requested virtual task: Move the robot from Station A to Station B using a different safe route. Avoid both obstacles, maintain the required safety clearance, recalculate the route using their current positions, and verify every route segment before simulating the robot..",
+      "Identify the simulated start point, destination, obstacles, and available clear space.",
+      "Check the proposed route for blocked cells and leave a visible margin around obstacles.",
+      "Choose a collision-aware path and divide it into clear waypoints for the virtual robot.",
+      "If an obstacle moves or blocks the route, pause the visual simulation and calculate another path.",
+      "Review the virtual route and report the result; this plan does not verify real-world robot safety."
+    ],
+    "created_at": "2026-10-29T07:10:23.243091+00:00",
+    "outcome": "success",
+    "outcome_reason": "The virtual robot reached Station B after the 2D route check passed.",
+    "outcome_recorded_at": "2026-10-29T07:10:25.435824+00:00"
+  },
+  {
+    "id": "6f14b1a7-9bf2-4e50-87ca-380f55f9746a",
+    "task": "Move the robot from Station A to Station B. Detect the current positions of both obstacles and calculate a collision-free route that maintains the required safety clearance. If the direct route is blocked, choose an alternative route around the obstacles. Verify the entire route before starting the simulation. If no safe route exists, do not move the robot.",
+    "action_plan": [
+      "Identify the simulated start at Station A, the goal at Station B, and list all obstacles currently occupying cells in the 2D arena.",
+      "Inspect the simulated hazards by measuring clearance distances to each obstacle and flag any cells that fall below the required safety margin.",
+      "Choose a collision‑aware route that respects the identified clearance margins and avoids all flagged unsafe cells.",
+      "Define a series of waypoints along the selected path that guide the virtual robot step by step from start to goal.",
+      "If new obstacles appear during the simulation, pause the visual run and compute an alternate path that maintains the required safety margins.",
+      "Perform a final virtual check of the entire route and report the result; this plan does not verify real‑world robot safety."
+    ],
+    "created_at": "2026-10-29T07:14:42.489972+00:00",
+    "outcome": "success",
+    "outcome_reason": "The virtual robot reached Station B after the 2D route check passed.",
+    "outcome_recorded_at": "2026-10-29T07:14:44.694181+00:00"
+  },
+  {
+    "id": "37c6698c-0345-437c-88a1-1927d5eb830d",
+    "task": "Move the robot from Station A to Station B. Detect the current positions of both obstacles and calculate a collision-free route that maintains the required safety clearance. If the direct route is blocked, choose an alternative route around the obstacles. Verify the entire route before starting the simulation. If no safe route exists, do not move the robot.",
+    "action_plan": [
+      "Identify the simulated start at Station A, the goal at Station B, and list the current obstacle positions in the 2D arena.",
+      "Measure clearance distances from each cell to the obstacles and flag any cells that fall below the required safety margin.",
+      "Select a collision‑free path that respects the measured clearance and avoids all flagged unsafe cells.",
+      "Break the chosen path into a series of waypoints that guide the virtual robot step by step from start to goal.",
+      "If new obstacles appear during the simulation, pause the run and recompute an alternate route that maintains the required safety margins.",
+      "Perform a final virtual check of the entire route and report the result; this plan does not verify real‑world robot safety."
+    ],
+    "created_at": "2026-10-29T07:17:22.800660+00:00",
+    "outcome": "success",
+    "outcome_reason": "The virtual robot reached Station B after the 2D route check passed.",
+    "outcome_recorded_at": "2026-10-29T07:17:24.958917+00:00"
+  },
+  {
+    "id": "c4db9523-8278-4dcf-a212-08a029eeeaaf",
+    "task": "Move the robot from Station A to Station B. Detect the current positions of both obstacles and calculate a collision-free route that maintains the required safety clearance. If the direct route is blocked, choose an alternative route around the obstacles. Verify the entire route before starting the simulation. If no safe route exists, do not move the robot.",
+    "action_plan": [
+      "Identify the simulated start at Station A, the goal at Station B, and list the current positions of both obstacles in the 2D arena.",
+      "Measure clearance distances from each cell to the obstacles and flag any cells that fall below the required safety margin.",
+      "Choose a collision‑free path that respects the measured clearance and avoids all flagged unsafe cells.",
+      "Break the selected path into a series of waypoints that guide the virtual robot step by step from start to goal.",
+      "If new obstacles appear during the simulation, pause the run and recompute an alternate route that maintains the required safety margins.",
+      "Perform a final virtual check of the entire route and report the result; this plan does not verify real‑world robot safety."
+    ],
+    "created_at": "2026-10-29T07:19:44.604071+00:00",
+    "outcome": "success",
+    "outcome_reason": "The virtual robot reached Station B after the 2D route check passed.",
+    "outcome_recorded_at": "2026-10-29T07:19:46.817581+00:00"
+  },
+  {
+    "id": "c3a4ba9f-af88-419b-b447-5ff940703c1b",
+    "task": "Move the robot from Station A to Station B. Detect the current positions of both obstacles and calculate a collision-free route that maintains the required safety clearance. If the direct route is blocked, choose an alternative route around the obstacles. Verify the entire route before starting the simulation. If no safe route exists, do not move the robot.",
+    "action_plan": [
+      "Identify the simulated start at Station A, the goal at Station B, and note the current positions of both obstacles within the 2D arena.",
+      "Measure clearance distances from each cell to the obstacles and flag any cells that fall below the required safety margin.",
+      "Choose a collision‑free path that respects the measured clearance and avoids all flagged unsafe cells.",
+      "Break the selected path into a series of waypoints that guide the virtual robot step by step from start to goal.",
+      "If new obstacles appear during the simulation, pause the run and recompute an alternate route that maintains the required safety margins.",
+      "Perform a final virtual check of the entire route and report the result; this plan does not verify real‑world robot safety."
+    ],
+    "created_at": "2026-10-29T07:22:35.818152+00:00",
+    "outcome": "success",
+    "outcome_reason": "The virtual robot reached Station B after the 2D route check passed.",
+    "outcome_recorded_at": "2026-10-29T07:22:38.107221+00:00"
+  },
+  {
+    "id": "8989dbde-0e28-4471-960b-3016036565ea",
+    "task": "Move the virtual robot from Station A to Station B. Plan the safest possible route around all obstacles and their safety zones. Verify every route segment before starting movement. Display the calculated route as a glowing cyan line on the dark grid. Show the verified path in green and an unsafe path in red. Animate the robot along the verified route and stop if no safe route is available.",
+    "action_plan": [
+      "Clarify the requested virtual task: Move the virtual robot from Station A to Station B. Plan the safest possible route around all obstacles and their safety zones. Verify every route segment before starting movement. Display the calculated route as a glowing cyan line on the dark grid. Show the verified path in green and an unsafe path in red. Animate the robot along the verified route and stop if no safe route is available..",
+      "Identify the simulated start point, destination, obstacles, and available clear space.",
+      "Check the proposed route for blocked cells and leave a visible margin around obstacles.",
+      "Choose a collision-aware path and divide it into clear waypoints for the virtual robot.",
+      "If an obstacle moves or blocks the route, pause the visual simulation and calculate another path.",
+      "Review the virtual route and report the result; this plan does not verify real-world robot safety."
+    ],
+    "created_at": "2026-10-29T07:58:27.801066+00:00",
+    "outcome": "success",
+    "outcome_reason": "The virtual robot reached Station B after the 2D route check passed.",
+    "outcome_recorded_at": "2026-10-29T07:58:30.103143+00:00"
+  },
+  {
+    "id": "76caf56f-b0e1-4193-834f-36d77c4f088d",
+    "task": "Move the virtual robot from Station A to Station B. Plan the safest possible route around all obstacles and their safety zones. Verify every route segment before starting movement. Display the calculated route as a glowing cyan line on the dark grid. Show the verified path in green and an unsafe path in red. Animate the robot along the verified route and stop if no safe route is available.",
+    "action_plan": [
+      "Identify the virtual start at Station A, the goal at Station B, and list all obstacles and their safety zones in the 2D arena.",
+      "Inspect each cell for clearance, flagging any that fall below the required safety margin around obstacles.",
+      "Choose a collision‑aware route that respects the identified clearance and avoids all flagged unsafe cells.",
+      "Define a series of waypoints along the selected path that guide the virtual robot step by step from start to goal.",
+      "If new obstacles appear during the simulation, pause the visual run and recalculate a safe path while maintaining the required margins.",
+      "Perform a final virtual check of the route and report the result; this plan does not verify real‑world robot safety."
+    ],
+    "created_at": "2026-10-29T08:01:42.048874+00:00",
+    "outcome": "success",
+    "outcome_reason": "The virtual robot reached Station B after the 2D route check passed.",
+    "outcome_recorded_at": "2026-10-29T08:01:48.259651+00:00"
+  },
+  {
+    "id": "eb1d65fb-f797-4783-9648-cdf663404bbc",
+    "task": "Move the virtual robot from Station A to Station B. Plan the safest possible route around all obstacles and their safety zones. Verify every route segment before starting movement. Display the calculated route as a glowing cyan line on the dark grid. Show the verified path in green and an unsafe path in red. Animate the robot along the verified route and stop if no safe route is available.",
+    "action_plan": [
+      "Identify the virtual start at Station A, the goal at Station B, and enumerate all obstacles together with their safety zones in the 2D arena.",
+      "Inspect each cell for clearance, flagging any that fall below the required safety margin around obstacles.",
+      "Choose a collision‑aware route that respects the identified clearance and avoids all flagged unsafe cells.",
+      "Define a series of waypoints along the selected path that guide the virtual robot step by step from start to goal.",
+      "If new obstacles appear during the simulation, pause the visual run and recalculate a safe path while maintaining the required margins.",
+      "Perform a final virtual check of the route and report the result; this plan does not verify real‑world robot safety."
+    ],
+    "created_at": "2026-10-29T15:27:46.927583+00:00",
+    "outcome": "success",
+    "outcome_reason": "The virtual robot reached Station B after the 2D route check passed.",
+    "outcome_recorded_at": "2026-10-29T15:27:53.587891+00:00"
+  }
+]
